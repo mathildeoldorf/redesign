@@ -4,7 +4,9 @@
 
 html {
     font-size: 1em;
-    background-color: #839db7;
+    max-width: 1400px;
+    margin: 0 auto;
+    /*    padding: 1.5vw;*/
 }
 
 body {
@@ -19,19 +21,28 @@ h1 {
     font-weight: 800;
     font-size: 5em;
     text-align: center;
-    color: #d5d6e6;
+    color: #ffffff;
 }
 
 h2 {
     font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    color: #d5d6e6;
 }
 
 h3 {
     font-family: 'roboto condensed', sans-serif;
+    font-size: 1.2em;
+    color: #ffffff;
+    letter-spacing: 10px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #d5d6e6;
 }
 
 
@@ -41,11 +52,19 @@ p {
     /*    position: fixed;*/
     width: 100%;
     display: flex;
+    padding: 1vw;
+    background-color: lightblue;
 }
 
 .banner img {
-    width: 30vw;
-    height: 30vw;
+    width: 17vw;
+    height: 17vw;
+}
+
+.banner h1 {
+    font-size: 6vw;
+    align-self: center;
+    margin: 0;
 }
 
 /**** MENUER ****/
@@ -69,52 +88,59 @@ nav a:hover {
     color: #FF4049;
 }
 
+
+/* TOPMENU */
+
 .topmenucontainer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     /*    position: fixed;*/
+    background-color: lightblue;
 }
 
 .topmenu {
     flex-basis: 100px;
-    flex-grow: 0.5;
+    flex-grow: 4;
 }
 
 .topmenu a {
-    padding: 1vw;
+    padding: 2vw;
 
 }
 
 .shoppingcart {
     flex-basis: 100px;
-    flex-grow: 4;
+    flex-grow: 0.5;
     padding: 1vw;
     text-align: right;
 }
 
 .shoppingcart img {
-    width: 3vw;
-    min-width: 30px;
+    width: 6vw;
+    min-width: 50px;
+    padding: 1vw;
 }
+
+/* HOVEDMENU */
 
 #hovedmenu {
     text-align: center;
 }
 
 #hovedmenu a {
-    padding: 0.5vw;
+    padding: 1vw;
 }
 
 #hovedmenu img {
     border-radius: 150%;
-    background-color: aliceblue;
-    padding: 2vw;
+    background-color: lightblue;
+    padding: 3vw;
     width: 400px;
     height: 400px;
 }
 
-@media screen and ()
+
 /**** OM ****/
 
 #om .sectionwrapper {
