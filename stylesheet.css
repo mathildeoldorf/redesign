@@ -12,17 +12,23 @@ body {
 
 /**** FONT TYPE ****/
 
-@font-face {
-    font-family: 'motor_oil_1937_m54regular';
-    src: url('font/motor_oil_1937_m54-webfont.woff2') format('woff2'), url('motor_oil_1937_m54-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 h1 {
-    font-family: 'motor_oil_1937_m54regular';
+    font-family: 'anton', sans-serif;
     font-size: 5em;
     text-align: center;
+}
+
+h2 {
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+h3 {
+    font-family: 'roboto condensed', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 /**** BANNER ****/
