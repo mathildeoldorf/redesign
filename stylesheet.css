@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 
+/*
 html {
     font-size: 1em;
     max-width: 1400px;
     margin: 0 auto;
-    /*    padding: 1.5vw;*/
+        padding: 1.5vw;
 }
-
+*/
 
 .img {
     width: 100%;
@@ -71,20 +72,25 @@ section#refill h1 {
     background-color: lightblue;
 }
 
+.banner a {
+    text-decoration: none;
+    width: 100%;
+}
+
 .banner img {
     width: 17vw;
     height: 17vw;
 }
 
+/***HVORFOR FYLDER HEADER DET HELE OG HVORFOR ER BOKSENE FLYTTET NÅR MAN SÆTTER MIN WIDTH***/
+
 .banner h1 {
-    font-size: 6vw;
+    font-size: 7vw;
     align-self: center;
     margin: 0;
 }
 
-.banner a {
-    text-decoration: none;
-}
+
 
 /**** MENUER ****/
 
