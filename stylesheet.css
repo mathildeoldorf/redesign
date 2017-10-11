@@ -36,6 +36,52 @@ p {
 
 /**** MENUER ****/
 
+nav {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 0px 20px 0;
+    text-align: left;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: #FF4049;
+}
+
+.topmenucontainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.topmenu {
+    flex-basis: 100px;
+    flex-grow: 0.5;
+}
+
+.shoppingcart {
+    flex-basis: 100px;
+    flex-grow: 4;
+    padding: 5px;
+    text-align: right;
+}
+
+.shoppingcart img {
+    width: 3vw;
+    min-width: 30px;
+}
+
+
+
 /**** OM ****/
 
 /* VIDEO */
