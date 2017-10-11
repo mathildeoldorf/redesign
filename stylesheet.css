@@ -37,7 +37,6 @@ p {
 
 /**** BANNER ****/
 
-
 /**** MENUER ****/
 
 nav {
@@ -85,30 +84,6 @@ nav a:hover {
 }
 
 
-/*******forside billeder****/
-
-#hovedmenu .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-}
-
-#hovedmenu .column {}
-
-#hovedmenu .column img {
-    min-width: 500px;
-    padding: 5%;
-    border-radius: 150%;
-}
-
-@media screen and (orientation: portrait) and (max-width: 667px) {
-    #blaek .sectionwrapper {
-        display: block;
-    }
-}
-
-
 /**** OM ****/
 
 #om .sectionwrapper {
@@ -136,7 +111,6 @@ nav a:hover {
 
 /**** REFILL ****/
 
-
 /**** REFILL-BLÆK ****/
 
 #blaek .sectionwrapper {
@@ -162,8 +136,6 @@ nav a:hover {
 
 /******media screen virker ikke endnu på refill blæk****/
 
-
 /**** KOMPATIBEL ****/
-
 
 /**** PRINTERVALG ****/
