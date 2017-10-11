@@ -99,6 +99,7 @@ nav a:hover {
 #hovedmenu .column img {
     min-width: 500px;
     padding: 5%;
+    border-radius: 150%;
 }
 
 @media screen and (orientation: portrait) and (max-width: 667px) {
