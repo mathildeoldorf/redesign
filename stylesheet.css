@@ -87,8 +87,27 @@ nav a:hover {
 
 /**** OM ****/
 
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#om .column_narrow {
+    flex-basis: 500px;
+    padding: 5%;
+    flex-grow: 1;
+}
+
 
 /* VIDEO */
+
+#om .column_wide {
+    flex-basis: 500px;
+    padding: 5%;
+    flex-grow: 1;
+}
 
 
 /**** REFILL ****/
