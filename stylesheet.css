@@ -185,18 +185,21 @@ nav a:hover {
     justify-content: center;
 }
 
+#blaek .column {
+    background-color: lightblue;
+    border-radius: 150%;
+    width: 20vw;
+    height: 20vw;
+}
+
 #blaek .a {
     padding: 1vw;
 }
 
 #blaek img {
-    background-color: lightblue;
-    border-radius: 150%;
-    padding: 3vw;
-    width: 500px;
-    height: 500px;
-}
+    width: 10vw;
 
+}
 
 /**** KOMPATIBEL ****/
 
@@ -216,6 +219,6 @@ nav a:hover {
     border-radius: 150%;
     background-color: lightblue;
     padding: 3vw;
-    width: 500px;
-    height: 500px;
+    width: 50vw;
+    height: 50vw;
 }
