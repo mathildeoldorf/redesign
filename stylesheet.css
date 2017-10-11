@@ -83,6 +83,14 @@ nav a:hover {
     min-width: 30px;
 }
 
+#hovedmenu {
+    text-align: center;
+}
+
+#hovedmenu img {
+    border-radius: 150%;
+    background-color: aliceblue;
+}
 
 /**** OM ****/
 
