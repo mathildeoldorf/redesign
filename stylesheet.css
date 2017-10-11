@@ -12,6 +12,19 @@ body {
 
 /**** FONT TYPE ****/
 
+@font-face {
+    font-family: 'motor_oil_1937_m54regular';
+    src: url('font/motor_oil_1937_m54-webfont.woff2') format('woff2'), url('motor_oil_1937_m54-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'motor_oil_1937_m54regular';
+    font-size: 5em;
+    text-align: center;
+}
+
 /**** BANNER ****/
 
 /**** MENUER ****/
