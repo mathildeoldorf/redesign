@@ -36,6 +36,7 @@ p {
 
 /**** BANNER ****/
 
+
 /**** MENUER ****/
 
 nav {
@@ -85,31 +86,31 @@ nav a:hover {
 
 /**** OM ****/
 
+
 /* VIDEO */
 
+
 /**** REFILL ****/
+
 
 /**** REFILL-BLÆK ****/
 
 #blaek .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    margin: 5px;
-    padding: 5%;
     width: 100%;
+    justify-content: center;
 }
 
-#blaek .column {
-    flex-grow: 1;
-    flex-basis: 200px;
-}
+#blaek .column {}
 
 #blaek .column img {
-    width: 100%;
+    min-width: 500px;
     padding: 5%;
 }
 
 
 /**** KOMPATIBEL ****/
+
 
 /**** PRINTERVALG ****/
