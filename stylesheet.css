@@ -182,26 +182,40 @@ nav a:hover {
 #blaek .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
 }
 
-#blaek .column {}
-
-#blaek .column img {
-    min-width: 500px;
-    padding: 5%;
+#blaek .a {
+    padding: 1vw;
 }
 
-@media screen and (orientation: portrait) and (max-width: 667px) {
-    #blaek .sectionwrapper {
-        display: block;
-    }
+#blaek img {
+    background-color: lightblue;
+    border-radius: 150%;
+    padding: 3vw;
+    width: 500px;
+    height: 500px;
 }
 
-
-/******media screen virker ikke endnu på refill blæk****/
 
 /**** KOMPATIBEL ****/
 
 /**** PRINTERVALG ****/
+
+#printervalg .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#printervalg a {
+    padding: 1vw;
+}
+
+#printervalg img {
+    border-radius: 150%;
+    background-color: lightblue;
+    padding: 3vw;
+    width: 500px;
+    height: 500px;
+}
