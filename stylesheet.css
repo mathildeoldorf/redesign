@@ -62,6 +62,12 @@ section#refill h1 {
 
 /**** BANNER ****/
 
+.header {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
 .banner {
     /*    position: fixed;*/
     width: 100%;
