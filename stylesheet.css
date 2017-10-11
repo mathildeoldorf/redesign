@@ -54,6 +54,12 @@ p {
     color: #d5d6e6;
 }
 
+/**** FONT FARVER **** VIRKER IKKE/
+
+section#refill h1 {
+    color: lightblue;
+}
+
 
 /**** BANNER ****/
 
@@ -181,6 +187,25 @@ nav a:hover {
 
 /**** REFILL ****/
 
+#refill .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#refill a {
+    padding: 1vw;
+}
+
+#refill img {
+    border-radius: 150%;
+    background-color: lightblue;
+    padding: 3vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+
 /**** REFILL-BLÆK ****/
 
 #blaek .sectionwrapper {
@@ -207,6 +232,25 @@ nav a:hover {
 
 /**** KOMPATIBEL ****/
 
+#kombatibel .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#kombatibel a {
+    padding: 1vw;
+}
+
+#kombatibel img {
+    border-radius: 150%;
+    background-color: lightblue;
+    padding: 3vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+
 /**** PRINTERVALG ****/
 
 #printervalg .sectionwrapper {
@@ -223,6 +267,6 @@ nav a:hover {
     border-radius: 150%;
     background-color: lightblue;
     padding: 3vw;
-    width: 50vw;
-    height: 50vw;
+    width: 30vw;
+    height: 30vw;
 }
