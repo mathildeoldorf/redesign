@@ -110,6 +110,12 @@ nav a:hover {
     padding: 5%;
 }
 
+@media screen and (orientation: portrait) and (max-width: 667px) {
+    #blaek .sectionwrapper {
+        display: block;
+    }
+}
+
 
 /**** KOMPATIBEL ****/
 
