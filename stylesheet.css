@@ -85,6 +85,29 @@ nav a:hover {
 }
 
 
+/*******forside billeder****/
+
+#hovedmenu .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+#hovedmenu .column {}
+
+#hovedmenu .column img {
+    min-width: 500px;
+    padding: 5%;
+}
+
+@media screen and (orientation: portrait) and (max-width: 667px) {
+    #blaek .sectionwrapper {
+        display: block;
+    }
+}
+
+
 /**** OM ****/
 
 #om .sectionwrapper {
