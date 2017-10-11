@@ -37,6 +37,17 @@ p {
 
 /**** BANNER ****/
 
+.banner {
+    /*    position: fixed;*/
+    width: 100%;
+    display: flex;
+}
+
+.banner img {
+    width: 30vw;
+    height: 30vw;
+}
+
 /**** MENUER ****/
 
 nav {
@@ -44,13 +55,11 @@ nav {
     font-weight: 700;
     background-color: cmyk(47%, 23%, 12%, 2%);
     color: #000000;
-    padding: 20px 0px 20px 0;
     text-align: left;
 }
 
 nav a {
     display: inline-block;
-    padding: 1px;
     text-decoration: none;
     color: #000000;
     font-size: 1em;
@@ -64,6 +73,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    /*    position: fixed;*/
 }
 
 .topmenu {
@@ -71,10 +81,15 @@ nav a:hover {
     flex-grow: 0.5;
 }
 
+.topmenu a {
+    padding: 1vw;
+
+}
+
 .shoppingcart {
     flex-basis: 100px;
     flex-grow: 4;
-    padding: 5px;
+    padding: 1vw;
     text-align: right;
 }
 
@@ -87,11 +102,19 @@ nav a:hover {
     text-align: center;
 }
 
+#hovedmenu a {
+    padding: 0.5vw;
+}
+
 #hovedmenu img {
     border-radius: 150%;
     background-color: aliceblue;
+    padding: 2vw;
+    width: 400px;
+    height: 400px;
 }
 
+@media screen and ()
 /**** OM ****/
 
 #om .sectionwrapper {
@@ -147,3 +170,7 @@ nav a:hover {
 /**** KOMPATIBEL ****/
 
 /**** PRINTERVALG ****/
+
+.img {
+    width: 100%;
+}
