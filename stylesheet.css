@@ -9,10 +9,19 @@ html {
     /*    padding: 1.5vw;*/
 }
 
+
+.img {
+    width: 100%;
+}
+
 body {
     margin: 0;
 }
 
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /**** FONT TYPE ****/
 
@@ -196,7 +205,3 @@ nav a:hover {
 /**** KOMPATIBEL ****/
 
 /**** PRINTERVALG ****/
-
-.img {
-    width: 100%;
-}
