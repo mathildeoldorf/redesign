@@ -4,6 +4,7 @@
 
 html {
     font-size: 1em;
+    background-color: #839db7;
 }
 
 body {
@@ -35,13 +36,12 @@ p {
 
 /**** BANNER ****/
 
-
 /**** MENUER ****/
 
 nav {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 700;
-    background-color: #ffffff;
+    background-color: cmyk(47%, 23%, 12%, 2%);
     color: #000000;
     padding: 20px 0px 20px 0;
     text-align: left;
@@ -85,12 +85,9 @@ nav a:hover {
 
 /**** OM ****/
 
-
 /* VIDEO */
 
-
 /**** REFILL ****/
-
 
 /**** REFILL-BLÆK ****/
 
@@ -114,6 +111,5 @@ nav a:hover {
 
 
 /**** KOMPATIBEL ****/
-
 
 /**** PRINTERVALG ****/
