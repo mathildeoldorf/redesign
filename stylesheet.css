@@ -130,7 +130,6 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /*    position: fixed;*/
     background-color: lightblue;
     align-items: center;
 }
@@ -162,17 +161,10 @@ nav a:hover {
 
 #hovedmenu {
     text-align: center;
-    /*
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-*/
 }
 
 #hovedmenu .column {
     display: inline-block;
-    /*    width: 300px;*/
     padding: 1vw;
 }
 
@@ -184,17 +176,9 @@ nav a:hover {
     background-color: lightblue;
     width: 30vw;
     height: 30vw;
-    /*    text-align: center;*/
 }
 
 #hovedmenu .hovedmenutekst {}
-
-#hovedmenu a {
-    /*
-    width: 30vw;
-    height: 30vw;
-*/
-}
 
 #hovedmenu img {
     width: 20vw;
@@ -230,43 +214,13 @@ nav a:hover {
 
 /**** REFILL ****/
 
-/*
-#refill .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-*/
-
-/*
-#refill a {
-    padding: 1vw;
-}
-*/
-
-/*
-#refill img {
-    border-radius: 150%;
-    background-color: lightblue;
-    padding: 3vw;
-    width: 30vw;
-    height: 30vw;
-}
-*/
-
 #refill {
     text-align: center;
-    /*
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-*/
+
 }
 
 #refill .column {
     display: inline-block;
-    /*    width: 300px;*/
     padding: 1vw;
 }
 
@@ -278,17 +232,10 @@ nav a:hover {
     background-color: lightblue;
     width: 30vw;
     height: 30vw;
-    /*    text-align: center;*/
 }
 
 #refill .refilltekst {}
 
-#refill a {
-    /*
-    width: 30vw;
-    height: 30vw;
-*/
-}
 
 #refill img {
     width: 20vw;
@@ -300,17 +247,10 @@ nav a:hover {
 
 #blaek {
     text-align: center;
-    /*
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-*/
 }
 
 #blaek .column {
     display: inline-block;
-    /*    width: 300px;*/
     padding: 1vw;
 }
 
@@ -322,26 +262,9 @@ nav a:hover {
     background-color: lightblue;
     width: 30vw;
     height: 30vw;
-    /*    text-align: center;*/
 }
 
 #blaek .blaektekst {}
-
-#blaek a {
-    /*
-    width: 30vw;
-    height: 30vw;
-*/
-}
-
-
-/*
-#blaek img {
-    width: 20vw;
-        height: 20vw;
-    margin: 5vw;
-}
-*/
 
 #blaek .smallbottle {
     margin-top: 11vw;
@@ -366,17 +289,10 @@ nav a:hover {
 
 #kompatibel {
     text-align: center;
-    /*
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-*/
 }
 
 #kompatibel .column {
     display: inline-block;
-    /*    width: 300px;*/
     padding: 1vw;
 }
 
@@ -388,17 +304,9 @@ nav a:hover {
     background-color: lightblue;
     width: 30vw;
     height: 30vw;
-    /*    text-align: center;*/
 }
 
 #kompatibel .kompatibeltekst {}
-
-#kompatibel a {
-    /*
-    width: 30vw;
-    height: 30vw;
-*/
-}
 
 #kompatibel img {
     width: 20vw;
@@ -410,39 +318,12 @@ nav a:hover {
 
 /**** PRINTERVALG ****/
 
-/*
-#printervalg .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#printervalg a {
-    padding: 1vw;
-}
-
-#printervalg img {
-    border-radius: 150%;
-    background-color: lightblue;
-    padding: 3vw;
-    width: 30vw;
-    height: 30vw;
-}
-*/
-
 #printervalg {
     text-align: center;
-    /*
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-*/
 }
 
 #printervalg .column {
     display: inline-block;
-    /*    width: 300px;*/
     padding: 1vw;
 }
 
@@ -452,17 +333,9 @@ nav a:hover {
     background-color: lightblue;
     width: 30vw;
     height: 30vw;
-    /*    text-align: center;*/
 }
 
 #printervalg .printervalgtekst {}
-
-#hovedmenu a {
-    /*
-    width: 30vw;
-    height: 30vw;
-*/
-}
 
 #printervalg img {
     width: 20vw;
@@ -480,8 +353,6 @@ nav a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        /*        display: flex;*/
     }
 
     #hovedmenu .hovedmenubillede {
@@ -515,7 +386,6 @@ nav a:hover {
         justify-content: center;
         align-items: center;
 
-        /*        display: flex;*/
     }
 
     #blaek .blaekbillede {
@@ -527,19 +397,16 @@ nav a:hover {
 
     #blaek .smallbottle {
         margin-top: 17vw;
-        /*    width: 15vw;*/
         height: 27vw;
     }
 
     #blaek .mediumbottle {
         margin-top: 8vw;
-        /*    width: 15vw;*/
         height: 37vw;
     }
 
     #blaek .largebottle {
         margin-top: 3.5vw;
-        /*    width: 15vw;*/
         height: 42vw;
     }
 
@@ -564,8 +431,6 @@ nav a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
-        /*        display: flex;*/
     }
 
     #printervalg .printervalgbillede,
