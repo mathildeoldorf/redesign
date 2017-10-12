@@ -3,6 +3,15 @@
 }
 
 html {
+    /*
+    font-size: 1em;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5vw;
+*/
+}
+
+.wrapper {
     font-size: 1em;
     max-width: 1400px;
     margin: 0 auto;
