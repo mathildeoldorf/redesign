@@ -230,16 +230,21 @@ nav a:hover {
 
 /**** REFILL ****/
 
+/*
 #refill .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+*/
 
+/*
 #refill a {
     padding: 1vw;
 }
+*/
 
+/*
 #refill img {
     border-radius: 150%;
     background-color: lightblue;
@@ -247,7 +252,49 @@ nav a:hover {
     width: 30vw;
     height: 30vw;
 }
+*/
 
+#refill {
+    text-align: center;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+*/
+}
+
+#refill .column {
+    display: inline-block;
+    /*    width: 300px;*/
+    padding: 1vw;
+}
+
+
+
+
+#refill .refillbillede {
+    border-radius: 150%;
+    background-color: lightblue;
+    width: 30vw;
+    height: 30vw;
+    /*    text-align: center;*/
+}
+
+#refill .refilltekst {}
+
+#refill a {
+    /*
+    width: 30vw;
+    height: 30vw;
+*/
+}
+
+#refill img {
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw;
+}
 
 /**** REFILL-BLÆK ****/
 
@@ -317,23 +364,48 @@ nav a:hover {
 
 /**** KOMPATIBEL ****/
 
-#kombatibel .sectionwrapper {
+#kompatibel {
+    text-align: center;
+    /*
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+*/
 }
 
-#kombatibel a {
+#kompatibel .column {
+    display: inline-block;
+    /*    width: 300px;*/
     padding: 1vw;
 }
 
-#kombatibel img {
+
+
+
+#kompatibel .kompatibelbillede {
     border-radius: 150%;
     background-color: lightblue;
-    padding: 3vw;
     width: 30vw;
     height: 30vw;
+    /*    text-align: center;*/
 }
+
+#kompatibel .kompatibeltekst {}
+
+#kompatibel a {
+    /*
+    width: 30vw;
+    height: 30vw;
+*/
+}
+
+#kompatibel img {
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw;
+}
+
 
 
 /**** PRINTERVALG ****/
@@ -373,8 +445,6 @@ nav a:hover {
     /*    width: 300px;*/
     padding: 1vw;
 }
-
-
 
 
 #printervalg .printervalgbillede {
@@ -488,7 +558,8 @@ nav a:hover {
 
 @media screen and (max-width: 800px) {
     #printervalg .column,
-    #kompatibel .column {
+    #kompatibel .column,
+    #refill .column {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -498,7 +569,8 @@ nav a:hover {
     }
 
     #printervalg .printervalgbillede,
-    #kompatibel .kompatibelbillede {
+    #kompatibel .kompatibelbillede,
+    #refill .refillbillede {
         display: flex;
         width: 50vw;
         height: 50vw;
@@ -506,18 +578,21 @@ nav a:hover {
 
 
     #printervalg img,
-    #kompatibel img {
+    #kompatibel img,
+    #refill img {
         width: 40vw;
         height: 40vw;
     }
 
     #printervalg .printervalgtekst,
-    #kompatibel .kompatibeltekst {
+    #kompatibel .kompatibeltekst,
+    #refill .refilltekst {
         text-align: center;
     }
 
     #printervalg .printervalgtekst h2,
-    #kompatibel .kompatibeltekst h2 {
+    #kompatibel .kompatibeltekst h2,
+    #refill .refilltekst h2 {
         font-size: 1.5em;
     }
 
