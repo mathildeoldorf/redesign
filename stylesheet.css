@@ -159,16 +159,12 @@ nav a:hover {
 /* HOVEDMENU */
 
 #hovedmenu {
-    /*    text-align: center; PÅVIRKER NU KUN OVERSKRIFTEN*/
-    /*
-    align-items: center;
-    display: inline-block;
-*/
+    text-align: center;
 }
 
 #hovedmenu .column {
     display: inline-block;
-    text-align: center;
+
 }
 
 @media screen and (max-width: 800px) {
@@ -187,13 +183,13 @@ nav a:hover {
 }
 
 #hovedmenu .hovedmenutekst {
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
 }
 
 #hovedmenu a {
-    width: 20vw;
-    height: 20vw;
+    width: 30vw;
+    height: 30vw;
 }
 
 #hovedmenu img {
