@@ -249,30 +249,6 @@ nav a:hover {
 
 /**** REFILL-BLÆK ****/
 
-/*
-#blaek .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#blaek .column {
-    background-color: lightblue;
-    border-radius: 150%;
-    width: 20vw;
-    height: 20vw;
-}
-
-#blaek .a {
-    padding: 1vw;
-}
-
-#blaek img {
-    width: 10vw;
-
-}
-*/
-
 #blaek {
     text-align: center;
     /*
@@ -309,12 +285,32 @@ nav a:hover {
 */
 }
 
+
+/*
 #blaek img {
     width: 20vw;
-    height: 20vw;
+        height: 20vw;
     margin: 5vw;
 }
+*/
 
+#blaek .smallbottle {
+    margin-top: 11vw;
+    /*    width: 15vw;*/
+    height: 15vw;
+}
+
+#blaek .mediumbottle {
+    margin-top: 7vw;
+    /*    width: 15vw;*/
+    height: 19vw;
+}
+
+#blaek .largebottle {
+    margin-top: 3vw;
+    /*    width: 15vw;*/
+    height: 23vw;
+}
 
 
 /**** KOMPATIBEL ****/
@@ -361,6 +357,8 @@ nav a:hover {
 
 /**** MEDIA QUERIES ****/
 
+/*HOVEDMENU*/
+
 @media screen and (max-width: 800px) {
     #hovedmenu .column {
         display: flex;
@@ -389,6 +387,42 @@ nav a:hover {
     }
 
     #hovedmenu .hovedmenutekst h2 {
+        font-size: 1.5em;
+    }
+
+}
+
+/*BLAEK*/
+
+@media screen and (max-width: 800px) {
+    #blaek .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /*        display: flex;*/
+    }
+
+    #blaek .blaekbillede {
+        display: flex;
+        width: 50vw;
+        height: 50vw;
+    }
+
+
+
+    #blaek img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+
+    #blaek .blaektekst {
+        text-align: center;
+    }
+
+    #blaek .blaektekst h2 {
         font-size: 1.5em;
     }
 
