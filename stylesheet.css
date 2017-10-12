@@ -160,19 +160,22 @@ nav a:hover {
 
 #hovedmenu {
     text-align: center;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+*/
 }
 
 #hovedmenu .column {
     display: inline-block;
-
+    /*    width: 300px;*/
+    padding: 1vw;
 }
 
-@media screen and (max-width: 800px) {
-    #hovedmenu .column {
-        display: block;
-    }
 
-}
+
 
 #hovedmenu .hovedmenubillede {
     border-radius: 150%;
@@ -182,14 +185,13 @@ nav a:hover {
     /*    text-align: center;*/
 }
 
-#hovedmenu .hovedmenutekst {
-    width: 30vw;
-    height: 30vw;
-}
+#hovedmenu .hovedmenutekst {}
 
 #hovedmenu a {
+    /*
     width: 30vw;
     height: 30vw;
+*/
 }
 
 #hovedmenu img {
@@ -308,4 +310,40 @@ nav a:hover {
     padding: 3vw;
     width: 30vw;
     height: 30vw;
+}
+
+
+/**** MEDIA QUERIES ****/
+
+@media screen and (max-width: 800px) {
+    #hovedmenu .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /*        display: flex;*/
+    }
+
+    #hovedmenu .hovedmenubillede {
+        display: flex;
+        width: 50vw;
+        height: 50vw;
+    }
+
+
+
+    #hovedmenu img {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    #hovedmenu .hovedmenutekst {
+        text-align: center;
+    }
+
+    #hovedmenu .hovedmenutekst h2 {
+        font-size: 1.5em;
+    }
+
 }
