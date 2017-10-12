@@ -249,6 +249,7 @@ nav a:hover {
 
 /**** REFILL-BLÆK ****/
 
+/*
 #blaek .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -270,6 +271,51 @@ nav a:hover {
     width: 10vw;
 
 }
+*/
+
+#blaek {
+    text-align: center;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+*/
+}
+
+#blaek .column {
+    display: inline-block;
+    /*    width: 300px;*/
+    padding: 1vw;
+}
+
+
+
+
+#blaek .blaekbillede {
+    border-radius: 150%;
+    background-color: lightblue;
+    width: 30vw;
+    height: 30vw;
+    /*    text-align: center;*/
+}
+
+#blaek .blaektekst {}
+
+#blaek a {
+    /*
+    width: 30vw;
+    height: 30vw;
+*/
+}
+
+#blaek img {
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw;
+}
+
+
 
 /**** KOMPATIBEL ****/
 
