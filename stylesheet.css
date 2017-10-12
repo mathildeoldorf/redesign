@@ -162,11 +162,12 @@ nav a:hover {
     text-align: center;
 }
 
-.hovedmenucontainer {
+#hovedmenu .hovedmenubillede {
     border-radius: 150%;
     background-color: lightblue;
     width: 20vw;
     height: 20vw;
+    text-align: center;
 }
 
 #hovedmenu a {
@@ -174,9 +175,9 @@ nav a:hover {
 }
 
 #hovedmenu img {
-    width: 10vw;
-    height: 10vw;
-
+    width: 15vw;
+    height: 15vw;
+    margin-top: 1.8vw;
 }
 
 
