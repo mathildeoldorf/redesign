@@ -159,13 +159,10 @@ nav a:hover {
 /* HOVEDMENU */
 
 #hovedmenu {
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
 }
 
 .hovedmenucontainer {
-    flex-basis: 400px;
     border-radius: 150%;
     background-color: lightblue;
     width: 20vw;
