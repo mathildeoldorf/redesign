@@ -211,6 +211,111 @@ nav a:hover {
     flex-grow: 1;
 }
 
+
+/**** REFILL ****/
+
+#refill {
+    text-align: center;
+
+}
+
+#refill .column {
+    display: inline-block;
+    padding: 1vw;
+}
+
+
+
+
+#refill .refillbillede {
+    border-radius: 150%;
+    background-color: lightblue;
+    width: 30vw;
+    height: 30vw;
+}
+
+#refill .refilltekst {}
+
+
+#refill img {
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw;
+}
+
+/**** REFILL-BLÆK ****/
+
+#blaek {
+    text-align: center;
+}
+
+#blaek .column {
+    display: inline-block;
+    padding: 1vw;
+}
+
+
+
+
+#blaek .blaekbillede {
+    border-radius: 150%;
+    background-color: lightblue;
+    width: 30vw;
+    height: 30vw;
+}
+
+#blaek .blaektekst {}
+
+#blaek .smallbottle {
+    margin-top: 11vw;
+    /*    width: 15vw;*/
+    height: 15vw;
+}
+
+#blaek .mediumbottle {
+    margin-top: 7vw;
+    /*    width: 15vw;*/
+    height: 19vw;
+}
+
+#blaek .largebottle {
+    margin-top: 3vw;
+    /*    width: 15vw;*/
+    height: 23vw;
+}
+
+
+/**** KOMPATIBEL ****/
+
+#kompatibel {
+    text-align: center;
+}
+
+#kompatibel .column {
+    display: inline-block;
+    padding: 1vw;
+}
+
+
+
+
+#kompatibel .kompatibelbillede {
+    border-radius: 150%;
+    background-color: lightblue;
+    width: 30vw;
+    height: 30vw;
+}
+
+#kompatibel .kompatibeltekst {}
+
+#kompatibel img {
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw;
+}
+
+
+
 /**** REFILL + KOMPATIBEL + PRINTERVALG ****/
 
 #kompatibel,
@@ -243,44 +348,6 @@ nav a:hover {
     width: 20vw;
     height: 20vw;
     margin: 5vw;
-}
-
-/**** REFILL-BLÆK ****/
-
-#blaek {
-    text-align: center;
-}
-
-#blaek .column {
-    display: inline-block;
-    padding: 1vw;
-}
-
-#blaek .blaekbillede {
-    border-radius: 150%;
-    background-color: lightblue;
-    width: 30vw;
-    height: 30vw;
-}
-
-#blaek .blaektekst {}
-
-#blaek .smallbottle {
-    margin-top: 11vw;
-    /*    width: 15vw;*/
-    height: 15vw;
-}
-
-#blaek .mediumbottle {
-    margin-top: 7vw;
-    /*    width: 15vw;*/
-    height: 19vw;
-}
-
-#blaek .largebottle {
-    margin-top: 3vw;
-    /*    width: 15vw;*/
-    height: 23vw;
 }
 
 /**** MEDIA QUERIES ****/
