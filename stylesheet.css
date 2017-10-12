@@ -159,25 +159,46 @@ nav a:hover {
 /* HOVEDMENU */
 
 #hovedmenu {
+    /*    text-align: center; PÅVIRKER NU KUN OVERSKRIFTEN*/
+    /*
+    align-items: center;
+    display: inline-block;
+*/
+}
+
+#hovedmenu .column {
+    display: inline-block;
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    #hovedmenu .column {
+        display: block;
+    }
+
 }
 
 #hovedmenu .hovedmenubillede {
     border-radius: 150%;
     background-color: lightblue;
+    width: 30vw;
+    height: 30vw;
+    /*    text-align: center;*/
+}
+
+#hovedmenu .hovedmenutekst {
     width: 20vw;
     height: 20vw;
-    text-align: center;
 }
 
 #hovedmenu a {
-    padding: 1vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 #hovedmenu img {
-    width: 15vw;
-    height: 15vw;
-    margin-top: 1.8vw;
+    width: 20vw;
+    height: 20vw;
 }
 
 
