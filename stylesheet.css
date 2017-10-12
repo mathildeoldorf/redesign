@@ -22,6 +22,10 @@ body {
     flex-wrap: wrap;
 }
 
+a {
+    text-decoration: none;
+}
+
 /**** FONT TYPE ****/
 
 h1 {
@@ -87,8 +91,6 @@ section#refill h1 {
     width: 17vw;
     height: 25vw;
 }
-
-/***HVORFOR FYLDER HEADER DET HELE OG HVORFOR ER BOKSENE FLYTTET NÅR MAN SÆTTER MIN WIDTH***/
 
 .banner h1 {
     font-size: 7vw;
@@ -376,7 +378,6 @@ nav a:hover {
     }
 
 
-
     #hovedmenu img {
         width: 40vw;
         height: 40vw;
@@ -408,13 +409,25 @@ nav a:hover {
         display: flex;
         width: 50vw;
         height: 50vw;
+        justify-content: center;
     }
 
+    #blaek .smallbottle {
+        margin-top: 17vw;
+        /*    width: 15vw;*/
+        height: 27vw;
+    }
 
+    #blaek .mediumbottle {
+        margin-top: 8vw;
+        /*    width: 15vw;*/
+        height: 37vw;
+    }
 
-    #blaek img {
-        width: 40vw;
-        height: 40vw;
+    #blaek .largebottle {
+        margin-top: 3.5vw;
+        /*    width: 15vw;*/
+        height: 42vw;
     }
 
 
