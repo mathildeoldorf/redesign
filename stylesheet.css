@@ -338,6 +338,7 @@ nav a:hover {
 
 /**** PRINTERVALG ****/
 
+/*
 #printervalg .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -355,7 +356,49 @@ nav a:hover {
     width: 30vw;
     height: 30vw;
 }
+*/
 
+#hovedmenu {
+    text-align: center;
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+*/
+}
+
+#hovedmenu .column {
+    display: inline-block;
+    /*    width: 300px;*/
+    padding: 1vw;
+}
+
+
+
+
+#hovedmenu .hovedmenubillede {
+    border-radius: 150%;
+    background-color: lightblue;
+    width: 30vw;
+    height: 30vw;
+    /*    text-align: center;*/
+}
+
+#hovedmenu .hovedmenutekst {}
+
+#hovedmenu a {
+    /*
+    width: 30vw;
+    height: 30vw;
+*/
+}
+
+#hovedmenu img {
+    width: 20vw;
+    height: 20vw;
+    margin: 5vw;
+}
 
 /**** MEDIA QUERIES ****/
 
