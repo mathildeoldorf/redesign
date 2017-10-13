@@ -55,15 +55,18 @@ h3 {
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    color: #d5d6e6;
+    color: #ffffff;
 }
 
-/**** FONT FARVER **** VIRKER IKKE/
+/**** FONT FARVER **** VIRKER IKKE***/
 
-section#refill h1 {
-    color: lightblue;
+h2 {
+    color: #ffffff;
 }
 
+h3 {
+    color: #ffffff;
+}
 
 /**** BANNER ****/
 
@@ -132,20 +135,25 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #2f4864;
+    background-color: #f77f33;
     align-items: center;
-    /*    position: fixed;*/
 }
 
 .topmenu {
     flex-basis: 100px;
     flex-grow: 4;
-    padding-left: 1vw;
+    /*    padding-left: 1vw;*/
+    padding: 1vw;
 }
 
 .topmenu a {
     padding: 2vw;
 
+}
+
+.topmenu a:hover {
+    opacity: 0.8;
+    background-color: #c9542f;
 }
 
 .shoppingcart {
@@ -163,7 +171,7 @@ nav a:hover {
 
 .shoppingcart a:hover {
     opacity: 1;
-    background-color: #2f4864;
+    background-color: #f77f33;
 }
 
 /* HOVEDMENU */
@@ -203,9 +211,12 @@ nav a:hover {
 
 }
 
-#hovedmenu .hovedmenubillede a:hover {}
 
-#hovedmenu .hovedmenubillede:hover {
+#kompatibel .kombatibeltekst:hover,
+#blaek .blaektekst:hover,
+#refill .refilltekst:hover,
+#hovedmenu .hovedmenubillede:hover,
+#hovedmenu .hovedmenutekst:hover {
     opacity: 0.8;
 }
 
