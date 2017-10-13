@@ -26,6 +26,7 @@ a {
     text-decoration: none;
 }
 
+
 /**** FONT TYPE ****/
 
 h1 {
@@ -58,6 +59,7 @@ p {
     color: #ffffff;
 }
 
+
 /**** FONT FARVER **** VIRKER IKKE***/
 
 h2 {
@@ -67,6 +69,7 @@ h2 {
 h3 {
     color: #ffffff;
 }
+
 
 /**** BANNER ****/
 
@@ -105,13 +108,11 @@ h3 {
 }
 
 
-
 /**** MENUER ****/
 
 nav {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 700;
-    background-color: cmyk(47%, 23%, 12%, 2%);
     color: #000000;
     text-align: left;
 }
@@ -128,6 +129,7 @@ nav a:hover {
     background-color: #6c99c9;
     /*    border-color: aliceblue;*/
 }
+
 
 /* TOPMENU */
 
@@ -148,7 +150,6 @@ nav a:hover {
 
 .topmenu a {
     padding: 2vw;
-
 }
 
 .topmenu a:hover {
@@ -174,6 +175,7 @@ nav a:hover {
     background-color: #f77f33;
 }
 
+
 /* HOVEDMENU */
 
 #hovedmenu {
@@ -184,9 +186,6 @@ nav a:hover {
     display: inline-block;
     padding: 1vw;
 }
-
-
-
 
 #hovedmenu .hovedmenubillede {
     border-radius: 150%;
@@ -208,9 +207,7 @@ nav a:hover {
     /*    margin: 5vw;*/
     max-height: 261px;
     max-width: 261px;
-
 }
-
 
 #kompatibel .kombatibeltekst:hover,
 #blaek .blaektekst:hover,
@@ -244,6 +241,7 @@ nav a:hover {
     padding: 5%;
     flex-grow: 1;
 }
+
 
 /**** REFILL + KOMPATIBEL + PRINTERVALG ****/
 
@@ -284,6 +282,7 @@ nav a:hover {
     height: 20vw;
     margin: 5vw;
 }
+
 
 /**** REFILL-BLÆK ****/
 
@@ -327,6 +326,7 @@ nav a:hover {
     height: 23vw;
 }
 
+
 /**** MEDIA QUERIES ****/
 
 @media screen and (min-width:1600px) {
@@ -341,6 +341,7 @@ nav a:hover {
     }
 }
 
+
 /*HOVEDMENU*/
 
 @media screen and (max-width: 800px) {
@@ -350,28 +351,23 @@ nav a:hover {
         justify-content: center;
         align-items: center;
     }
-
     #hovedmenu .hovedmenubillede {
         display: flex;
         width: 50vw;
         height: 50vw;
     }
-
-
     #hovedmenu img {
         width: 40vw;
         height: 40vw;
     }
-
     #hovedmenu .hovedmenutekst {
         text-align: center;
     }
-
     #hovedmenu .hovedmenutekst h2 {
         font-size: 1.5em;
     }
-
 }
+
 
 /*BLAEK*/
 
@@ -381,41 +377,33 @@ nav a:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
     }
-
     #blaek .blaekbillede {
         display: flex;
         width: 50vw;
         height: 50vw;
         justify-content: center;
     }
-
     #blaek .smallbottle {
         margin-top: 17vw;
         height: 27vw;
     }
-
     #blaek .mediumbottle {
         margin-top: 8vw;
         height: 37vw;
     }
-
     #blaek .largebottle {
         margin-top: 3.5vw;
         height: 42vw;
     }
-
-
     #blaek .blaektekst {
         text-align: center;
     }
-
     #blaek .blaektekst h2 {
         font-size: 1.5em;
     }
-
 }
+
 
 /*PRINTERVALG + KOMPATIBEL + REFILL */
 
@@ -428,7 +416,6 @@ nav a:hover {
         justify-content: center;
         align-items: center;
     }
-
     #printervalg .printervalgbillede,
     #kompatibel .kompatibelbillede,
     #refill .refillbillede {
@@ -436,25 +423,20 @@ nav a:hover {
         width: 50vw;
         height: 50vw;
     }
-
-
     #printervalg img,
     #kompatibel img,
     #refill img {
         width: 40vw;
         height: 40vw;
     }
-
     #printervalg .printervalgtekst,
     #kompatibel .kompatibeltekst,
     #refill .refilltekst {
         text-align: center;
     }
-
     #printervalg .printervalgtekst h2,
     #kompatibel .kompatibeltekst h2,
     #refill .refilltekst h2 {
         font-size: 1.5em;
     }
-
 }
