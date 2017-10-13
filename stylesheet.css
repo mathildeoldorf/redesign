@@ -6,7 +6,7 @@
     font-size: 1em;
     max-width: 1400px;
     margin: 0 auto;
-    background-color: #2d4864;
+    background-color: #182435;
 }
 
 .img {
@@ -55,15 +55,18 @@ h3 {
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
-    color: #d5d6e6;
+    color: #ffffff;
 }
 
-/**** FONT FARVER **** VIRKER IKKE/
+/**** FONT FARVER **** VIRKER IKKE***/
 
-section#refill h1 {
-    color: lightblue;
+h2 {
+    color: #ffffff;
 }
 
+h3 {
+    color: #ffffff;
+}
 
 /**** BANNER ****/
 
@@ -79,7 +82,7 @@ section#refill h1 {
     display: flex;
     flex-wrap: wrap;
     padding: 1vw;
-    background-color: #2d4864;
+    background-color: #182435;
 }
 
 .banner a {
@@ -121,8 +124,8 @@ nav a {
 }
 
 nav a:hover {
-    opacity: 0.3;
-    background-color: orange;
+    opacity: 0.8;
+    background-color: #6c99c9;
     /*    border-color: aliceblue;*/
 }
 
@@ -132,20 +135,25 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #426284;
+    background-color: #f77f33;
     align-items: center;
-    /*    position: fixed;*/
 }
 
 .topmenu {
     flex-basis: 100px;
     flex-grow: 4;
-    padding-left: 1vw;
+    /*    padding-left: 1vw;*/
+    padding: 1vw;
 }
 
 .topmenu a {
     padding: 2vw;
 
+}
+
+.topmenu a:hover {
+    opacity: 0.8;
+    background-color: #c9542f;
 }
 
 .shoppingcart {
@@ -163,7 +171,7 @@ nav a:hover {
 
 .shoppingcart a:hover {
     opacity: 1;
-    background-color: #426284;
+    background-color: #f77f33;
 }
 
 /* HOVEDMENU */
@@ -182,7 +190,7 @@ nav a:hover {
 
 #hovedmenu .hovedmenubillede {
     border-radius: 150%;
-    background-color: lightblue;
+    background-color: #6c99c9;
     width: 30vw;
     height: 30vw;
     max-width: 340px;
@@ -203,9 +211,12 @@ nav a:hover {
 
 }
 
-#hovedmenu .hovedmenubillede a:hover {}
 
-#hovedmenu .hovedmenubillede:hover {
+#kompatibel .kombatibeltekst:hover,
+#blaek .blaektekst:hover,
+#refill .refilltekst:hover,
+#hovedmenu .hovedmenubillede:hover,
+#hovedmenu .hovedmenutekst:hover {
     opacity: 0.8;
 }
 
@@ -253,7 +264,7 @@ nav a:hover {
 #refill .refillbillede,
 #printervalg .printervalgbillede {
     border-radius: 150%;
-    background-color: #ff934f;
+    background-color: #6c99c9;
     width: 30vw;
     height: 30vw;
 }
@@ -287,7 +298,7 @@ nav a:hover {
 
 #blaek .blaekbillede {
     border-radius: 150%;
-    background-color: lightblue;
+    background-color: #6c99c9;
     width: 30vw;
     height: 30vw;
 }
