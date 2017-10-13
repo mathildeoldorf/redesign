@@ -6,7 +6,7 @@
     font-size: 1em;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 1.5vw;
+    background-color: #2d4864;
 }
 
 .img {
@@ -49,6 +49,7 @@ h3 {
     font-size: 1.2em;
     color: #ffffff;
     letter-spacing: 1.2vw;
+    margin-right: -1.2vw;
 }
 
 p {
@@ -78,7 +79,7 @@ section#refill h1 {
     display: flex;
     flex-wrap: wrap;
     padding: 1vw;
-    background-color: lightblue;
+    background-color: #2d4864;
 }
 
 .banner a {
@@ -120,9 +121,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #FF4049;
+    opacity: 0.3;
+    background-color: orange;
+    /*    border-color: aliceblue;*/
 }
-
 
 /* TOPMENU */
 
@@ -130,13 +132,15 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: lightblue;
+    background-color: #426284;
     align-items: center;
+    /*    position: fixed;*/
 }
 
 .topmenu {
     flex-basis: 100px;
     flex-grow: 4;
+    padding-left: 1vw;
 }
 
 .topmenu a {
@@ -147,7 +151,7 @@ nav a:hover {
 .shoppingcart {
     flex-basis: 100px;
     flex-grow: 0.5;
-    padding: 1vw;
+    padding: 2vw;
     text-align: right;
 }
 
@@ -155,6 +159,11 @@ nav a:hover {
     width: 6vw;
     min-width: 50px;
     padding: 0.7vw;
+}
+
+.shoppingcart a:hover {
+    opacity: 1;
+    background-color: #426284;
 }
 
 /* HOVEDMENU */
@@ -176,6 +185,11 @@ nav a:hover {
     background-color: lightblue;
     width: 30vw;
     height: 30vw;
+    max-width: 340px;
+    max-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #hovedmenu .hovedmenutekst {}
@@ -183,7 +197,16 @@ nav a:hover {
 #hovedmenu img {
     width: 20vw;
     height: 20vw;
-    margin: 5vw;
+    /*    margin: 5vw;*/
+    max-height: 261px;
+    max-width: 261px;
+
+}
+
+#hovedmenu .hovedmenubillede a:hover {}
+
+#hovedmenu .hovedmenubillede:hover {
+    opacity: 0.8;
 }
 
 
@@ -230,9 +253,15 @@ nav a:hover {
 #refill .refillbillede,
 #printervalg .printervalgbillede {
     border-radius: 150%;
-    background-color: lightblue;
+    background-color: #ff934f;
     width: 30vw;
     height: 30vw;
+}
+
+#kompatibel .kompatibelbillede:hover,
+#refill .refillbillede:hover,
+#printervalg .printervalgbillede:hover {
+    opacity: 0.8;
 }
 
 #printervalg .printervalgtekst {}
@@ -263,6 +292,10 @@ nav a:hover {
     height: 30vw;
 }
 
+#blaek .blaekbillede:hover {
+    opacity: 0.8;
+}
+
 #blaek .blaektekst {}
 
 #blaek .smallbottle {
@@ -284,6 +317,18 @@ nav a:hover {
 }
 
 /**** MEDIA QUERIES ****/
+
+@media screen and (min-width:1600px) {
+    .banner h1 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .topmenu h3 {
+        font-size: 0.8em;
+    }
+}
 
 /*HOVEDMENU*/
 
