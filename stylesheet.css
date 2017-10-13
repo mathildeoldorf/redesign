@@ -4,7 +4,7 @@
 
 .wrapper {
     font-size: 1em;
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 0 auto;
     background-color: #2d4864;
 }
@@ -49,6 +49,7 @@ h3 {
     font-size: 1.2em;
     color: #ffffff;
     letter-spacing: 1.2vw;
+    margin-right: -1.2vw;
 }
 
 p {
@@ -139,6 +140,7 @@ nav a:hover {
 .topmenu {
     flex-basis: 100px;
     flex-grow: 4;
+    padding-left: 1vw;
 }
 
 .topmenu a {
@@ -183,6 +185,11 @@ nav a:hover {
     background-color: lightblue;
     width: 30vw;
     height: 30vw;
+    max-width: 340px;
+    max-height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #hovedmenu .hovedmenutekst {}
@@ -190,7 +197,10 @@ nav a:hover {
 #hovedmenu img {
     width: 20vw;
     height: 20vw;
-    margin: 5vw;
+    /*    margin: 5vw;*/
+    max-height: 261px;
+    max-width: 261px;
+
 }
 
 #hovedmenu .hovedmenubillede a:hover {}
@@ -307,6 +317,18 @@ nav a:hover {
 }
 
 /**** MEDIA QUERIES ****/
+
+@media screen and (min-width:1600px) {
+    .banner h1 {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .topmenu h3 {
+        font-size: 0.8em;
+    }
+}
 
 /*HOVEDMENU*/
 
