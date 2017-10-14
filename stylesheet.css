@@ -380,8 +380,8 @@ nav a:hover {
         height: 50vw;
     }
     #hovedmenu img {
-        width: 40vw;
-        height: 40vw;
+        width: 37vw;
+        height: 37vw;
     }
     #hovedmenu .hovedmenutekst {
         text-align: center;
@@ -390,6 +390,7 @@ nav a:hover {
         font-size: 1.5em;
     }
 }
+
 
 @media screen and (max-width:600px) {
     .topmenu a {
