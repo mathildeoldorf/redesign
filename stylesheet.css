@@ -220,14 +220,19 @@ nav a:hover {
 #om .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    /*        width: 100%;*/
     justify-content: center;
+    margin: 20px;
 }
 
 #om .column_narrow {
     flex-basis: 500px;
-    padding: 5%;
+    padding: 2%;
     flex-grow: 1;
+    background-color: #6c99c9;
+    border-radius: 30px;
+    max-height: 220px;
+    margin: 1%;
 }
 
 
@@ -235,7 +240,8 @@ nav a:hover {
 
 #om .column_wide {
     flex-basis: 500px;
-    padding: 5%;
+    /*    padding: 5%;*/
+    padding: 1%;
     flex-grow: 1;
 }
 
@@ -248,8 +254,7 @@ nav a:hover {
 .hs-responsive-embed-youtube {
     position: relative;
     padding-bottom: 56.25%;
-    /* 16:9 Aspect Ratio */
-    padding-top: 25px;
+    /*    16: 9 Aspect Ratio; */
 }
 
 
