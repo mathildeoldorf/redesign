@@ -509,3 +509,9 @@ footer h3 {
     #refill .refilltekst {
         text-align: center;
     }
+
+    @media screen and (max-width:800px) {
+        footer {
+            justify-content: center;
+        }
+    }
