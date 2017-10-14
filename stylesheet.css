@@ -355,6 +355,17 @@ nav a:hover {
     max-width: 261px;
 }
 
+/* FOOTER */
+
+footer {
+    display: flex;
+    background-color: #6c99c9;
+    padding: 2%;
+}
+
+footer p {
+    padding: 1%;
+}
 
 /********* MEDIA QUERIES *********/
 
