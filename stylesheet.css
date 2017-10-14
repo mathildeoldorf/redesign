@@ -361,10 +361,26 @@ footer {
     display: flex;
     background-color: #6c99c9;
     padding: 2%;
+    justify-content: flex-end;
+}
+
+.footer {
+    padding: 1%;
 }
 
 footer p {
-    padding: 1%;
+    font-size: 1.2vw;
+    font-weight: 200;
+    font-family: 'Merriweather Sans', sans-serif;
+    width: 200px;
+    margin: 0.5%;
+    letter-spacing: 3px;
+}
+
+footer h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 800;
+    font-size: 1.5vw;
 }
 
 /********* MEDIA QUERIES *********/
