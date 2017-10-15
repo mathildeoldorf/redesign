@@ -377,6 +377,10 @@ footer p {
     letter-spacing: 3px;
 }
 
+footer a {
+    color: #ffffff;
+}
+
 footer h3 {
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 800;
