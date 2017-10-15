@@ -181,6 +181,7 @@ nav a:hover {
 #hovedmenu .column {
     display: inline-block;
     padding: 1vw;
+    position: relative;
 }
 
 #hovedmenu .hovedmenubillede {
@@ -193,16 +194,49 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
-#hovedmenu .hovedmenutekst {}
+#hovedmenu .hovedmenutekst {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #182435;
+    width: 100%;
+
+    max-width: 255px;
+
+    border-style: dashed;
+    border-color: #ffffff;
+
+}
 
 #hovedmenu img {
     width: 20vw;
     height: 20vw;
     max-height: 261px;
     max-width: 261px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+
+#hovedmenu .hovedmenubillede:hover {
+    opacity: 0.9;
+}
+
+
+#hovedmenu .hovedmenutekst:hover {
+    opacity: 1;
+}
+
+
 
 /**** KNAP EFFEKT ****/
 
@@ -210,10 +244,10 @@ nav a:hover {
 #blaek .blaektekst:hover,
 #refill .refilltekst:hover,
 #hovedmenu .hovedmenubillede:hover,
-#hovedmenu .hovedmenutekst:hover {
-    opacity: 0.8;
-}
+/*#hovedmenu .hovedmenutekst:hover {*/
 
+opacity: 0.8;
+}
 
 /**** OM ****/
 
@@ -271,6 +305,7 @@ nav a:hover {
 #printervalg .column {
     display: inline-block;
     padding: 1vw;
+    position: relative;
 }
 
 #kompatibel .kompatibelbillede,
@@ -285,15 +320,37 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 #kompatibel .kompatibelbillede:hover,
 #refill .refillbillede:hover,
 #printervalg .printervalgbillede:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
-#printervalg .printervalgtekst {}
+
+#kompatibel .kompatibeltekst,
+#refill .refilltekst,
+#printervalg .printervalgtekst {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #182435;
+    width: 100%;
+
+    max-width: 255px;
+
+    border-style: dashed;
+    border-color: #ffffff;
+
+}
 
 #kompatibel img,
 #refill img,
@@ -302,6 +359,16 @@ nav a:hover {
     height: 20vw;
     max-height: 261px;
     max-width: 261px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+#kompatibel .kompatibeltekst:hover,
+#refill .refilltekst:hover,
+#printervalg .printervalgtekst:hover {
+    opacity: 1;
 }
 
 
@@ -314,6 +381,7 @@ nav a:hover {
 #blaek .column {
     display: inline-block;
     padding: 1vw;
+    position: relative;
 }
 
 #blaek .blaekbillede {
@@ -326,26 +394,55 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 #blaek .blaekbillede:hover {
     opacity: 0.8;
 }
 
-#blaek .blaektekst {}
+#blaek .blaektekst {
+
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #182435;
+    width: 100%;
+    max-width: 255px;
+    border-style: dashed;
+    border-color: #ffffff;
+}
+
+#blaek .blaektekst:hover {
+    opacity: 1;
+}
+
 
 #blaek .smallbottle {
     margin-top: 11vw;
     height: 15vw;
     max-height: 261px;
     max-width: 261px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
+
 
 #blaek .mediumbottle {
     margin-top: 7vw;
     height: 19vw;
     max-height: 261px;
     max-width: 261px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 #blaek .largebottle {
@@ -353,6 +450,9 @@ nav a:hover {
     height: 23vw;
     max-height: 261px;
     max-width: 261px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 /* FOOTER */
@@ -440,6 +540,15 @@ footer h3 {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    #hovedmenu .hovedmenutekst {
+        width: 230px;
+    }
+    #hovedmenu .hovedmenutekst h2 {
+        font-size: 1.2em;
+    }
+}
+
 
 @media screen and (max-width:600px) {
     .topmenu a {
@@ -483,6 +592,14 @@ footer h3 {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    #blaek .blaektekst {
+        width: 230px;
+    }
+    #blaek .blaektekst h2 {
+        font-size: 1.2em;
+    }
+}
 
 /*PRINTERVALG + KOMPATIBEL + REFILL */
 
@@ -514,6 +631,21 @@ footer h3 {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    #printervalg .printervalgtekst,
+    #kompatibel .kompatibeltekst,
+    #refill .refilltekst {
+        width: 230px;
+    }
+    #printervalg .printervalgtekst h2,
+    #kompatibel .kompatibeltekst h2,
+    #refill .refilltekst h2 {
+        font-size: 1.2em;
+    }
+}
+
+/******FOOTER*******/
 
 @media screen and (max-width:800px) {
     footer {
